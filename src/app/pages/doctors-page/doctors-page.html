@@ -1,0 +1,5 @@
+<section class="doctors-grid">
+    @for (doctor of doctors(); track doctor.id) {
+    <app-doctor-card [doctor]="doctor" />
+    }
+</section>
